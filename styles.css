@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #F5F5F5;
+    color: #20222F;
+} 
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+} 
+
+.avatar {
+    width: 250px;
+    border-radius: 28px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, .25);
+}
+
+.info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #233333;
+}
+
+.card {
+    border-radius: 20px;
+    margin-bottom: 8px;
+    padding: 20px;
+}
+
+.bg-orange {
+    background: #E88649;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.bg-orange ul {
+    list-style: inside;
+    padding: 0;
+}
+
+.bg-orange li {
+    margin-bottom: 10px;
+
+}
+
+.bg-grey {
+    background: #252D36;
+    color: whitesmoke;
+
+}
+
+.form h2 {
+    text-align: center;
+    cursor: default;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #FDFDFD;
+    padding: 15px 15px 15px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+.bg-green {
+    text-align: center;
+    background: #397349;
+    color: whitesmoke;
+    cursor: default;
+}
+
+.table {
+    width: 100%;
+}
+
+.table thead {
+    padding-bottom: 25px;
+    color: #71737a;
+    border-radius: 20px;
+}
+
+.table th:hover {
+    color: whitesmoke;
+    font-size: 1.05rem;
+    opacity: 0.8;
+    transition: all 0.2s;
+}
+
+.table td {
+    padding: 15px 25px;
+}
+
+.table tbody {
+    text-align: left;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 15px;
+    margin-right: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: inherit;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.btn:hover {
+    color: #78D9EC;
+    font-size: 1.05rem;
+    opacity: 0.8;
+}
+
+.btn:active {
+    color: #008EFF;
+}
+
+.inf { 
+    transition: all 0.2s;
+    }
+
+    .inf:hover {
+        font-size: 1.05rem;
+        cursor: default;
+    }
+
+    .cursor {
+        cursor: default;
+    }
+
+    
